@@ -1,0 +1,211 @@
+h2, h3, h4, h5, h6, p, span, a, button {
+    font-family: Rubik, sans-serif;
+}
+
+h1 {
+    font-family: Caveat, cursive;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.subtitle {
+    margin-top: 0rem;
+}
+
+#title {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/title-background.avif");
+    background-size: cover;
+    resize: both;
+    background-position: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.title-container {
+    text-align: center;
+    position: absolute
+}
+
+#welcome {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.profile-pic {
+    height: 100px;
+    border: solid black 2px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.welcome-title {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-title-txt > h2 {
+    margin-bottom: 0.25rem;
+}
+
+.welcome-title-txt > p {
+    margin-top: 0;
+}
+
+.welcome-txt-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.welcome-txt-container > p {
+    width: 40%;
+    margin-top: 2rem;
+}
+
+#projects, #contact {
+    background-color: #b8b8b8;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    background-color: #8f8f8f4f;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-ex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%
+}
+
+.project-ex > img {
+    width: 12rem;
+    margin-bottom: 1rem;
+    border: solid black 1px;
+}
+
+.project-ex > p {
+    width: 80%;
+    text-align: center;
+    margin-top: 0;
+}
+
+#about {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.about-container {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 5%
+}
+
+.career {
+    border-right: solid black 1px;
+    padding-right: 5%;
+}
+
+.about-section > h3 {
+    text-align: center;
+}
+
+#about > .section-title {
+    background-color: #F0EFED;
+}
+
+.about-subtitle {
+    display: flex;
+}
+
+.about-subtitle > img {
+    width: 20px;
+}
+
+.about-subtitle > h4 {
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.about-section {
+    width: 50%;
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-container > button {
+    border-radius: 20px;
+    border: solid darkblue 1px;
+    background-color: lightblue;
+    font-family: Rubik, sans-serif;
+}
+
+.contact-container > button > a {
+    display: block;
+    padding: .5rem;
+    margin: 0;
+    font-size: 1rem;
+}
+
+#footer {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    border-top: solid darkgray 2px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-links > a {
+    margin: 0 .5rem;
+}
+
+#footer {
+    background-color: lightgray;
+}
+
+.footer-container > p {
+    color: grey;
+}
+
+@media (max-width: 600px) {
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-ex {
+        width: 80%
+    }
+
+    .project-ex > p {
+        margin-bottom: 5rem;
+    }
+
+    .welcome-txt-container > p {
+        width: 80%;
+    }
+}
