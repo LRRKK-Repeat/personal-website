@@ -149,6 +149,10 @@ body {
     width: 50%;
 }
 
+.about-subsection {
+    height: 40%
+}
+
 .contact-container {
     text-align: center;
 }
